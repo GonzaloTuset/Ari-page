@@ -9,7 +9,7 @@ function App() {
         <div className=" flex-none w-4/12 h-6/12 relative">
           <img 
             src={image} 
-            alt="Foto culo" 
+            alt="Img" 
             className="absolute bg-cover inset-0 w-full h-full object-cover" 
           />
         </div>
