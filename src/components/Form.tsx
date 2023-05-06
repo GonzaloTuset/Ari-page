@@ -48,18 +48,18 @@ const Form = () => {
       >
         <label className="m-3 items cente">
           Nombre:
-          <input className="ml-2  w-11/12 text-black" type="text" name="name" />
+          <input className="ml-2 bg-white opacity-60 rounded w-11/12 text-black" type="text" name="name" />
         </label>
 
         <label className="m-3 ">
           Correo electrónico:
-          <input className="ml-2 w-11/12 text-black" type="email" name="email" />
+          <input className="ml-2 w-11/12 bg-white opacity-60 rounded text-black" type="email" name="email" />
         </label>
 
         <label className="m-3 h-52 flex flex-col">
           Mensaje:
           <textarea
-            className="ml-2 w-11/12 resize-none text-black h-1/4 m-2"
+            className="ml-2 w-11/12 bg-white opacity-60 rounded resize-none text-black h-1/4 m-2"
             name="message"
             rows={10}
             placeholder="Escribe aquí tu mensaje..."
