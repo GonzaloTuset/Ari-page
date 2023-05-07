@@ -26,7 +26,7 @@ function App() {
         
         <div className='w-full h-auto md:h-[732px] flex flex-col justify-around items-center md:p-4'>
           <div className=" flex flex-col mb-1 md:flex md:flex-row  md:items-center">
-            <div className="bg-white bg-opacity-70 rounded mb-2.5 md:mr-2.5">
+            <div className='bg-white bg-opacity-70 rounded mb-2.5 md:mr-2.5'>
               <Cards 
                 title={Logo}
                 subtitle="Desireé" 
