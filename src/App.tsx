@@ -39,7 +39,7 @@ function App() {
                 title={FondoTik}
                 subtitle="Desireé" 
                 image={TikTok}
-                url="https://www.tiktok.com/@ari.feernandez?_t=8aVLwUc5Et3&_r=1&utm_medium=social&utm_source=heylink.me"
+                url="https://www.tiktok.com/@arifernandez__1?_t=8cTe4T0GOeL&_r=1"
               />
             </div>
           </div>
