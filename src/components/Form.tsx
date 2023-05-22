@@ -13,12 +13,6 @@ const Form = () => {
       return;
     }
 
-    const nameRegex = /^[A-Z][a-z]*( [A-Z][a-z]*)*$/;
-    if (!nameRegex.test(nameInput.value)) {
-      alert('El nombre debe comenzar con una letra mayúscula.');
-      return;
-    }
-
     if (emailInput.value.trim() === '') {
       alert('Por favor ingresa tu correo electrónico.');
       return;
