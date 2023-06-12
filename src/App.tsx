@@ -23,8 +23,8 @@ function App() {
        
         
         <div className='w-full h-auto md:h-[732px] flex flex-col  md:p-4'>
-        <h1 className='h1 '>Desireé</h1>
-        <p className='mt-[12px] p'>10.500 Followers</p>
+        <h1 className='h1 mt-1'>Ari Fernandez</h1>
+        <p className='mt-[10px] p'>Mis redes Sociales:</p>
           <div className=" flex flex-col  md:flex md:flex-row  md:items-center">
             <div className='bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3'>
               <Cards 
