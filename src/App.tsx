@@ -1,7 +1,7 @@
 import Form from "./components/Form"
 import image from './assets/ari editada.jpg'
 import Cards from "./components/Cards"
-import header from './assets/ariJump.jpg'
+import header from './assets/Fondo.jpeg'
 import Logo from './assets/OnlyFansLogo.png'
 import TikTok from './assets/ari tik tok,jpeg.jpg'
 import FondoTik from './assets/tik tok.png'
@@ -26,11 +26,10 @@ function App() {
         
         <div className='w-full h-auto md:h-[732px] flex flex-col justify-around items-center md:p-4'>
           <div className=" flex flex-col mb-1 md:flex md:flex-row  md:items-center">
-            <div className='bg-white bg-opacity-70 rounded mb-2.5 md:mr-2.5'>
+            <div className='bg-pink-400 bg-opacity-70 rounded  md:mr-2.5'>
               <Cards 
-                title={Logo}
+                title={"OnlyFans"} 
                 subtitle="Desireé" 
-                image={imgOnly}
                 url="https://onlyfans.com/arifeernandez"
               />
             </div>
@@ -38,12 +37,11 @@ function App() {
               <Cards 
                 title={FondoTik}
                 subtitle="Desireé" 
-                image={TikTok}
                 url="https://www.tiktok.com/@arifernandez__1?_t=8cTe4T0GOeL&_r=1"
               />
             </div>
           </div>
-          <Form/>
+          {/*<Form/>*/}
         </div>
       </article>
     </main>
