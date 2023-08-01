@@ -18,3 +18,17 @@ h1 {
   font-family: "IBM Plex Serif",serif;
   font-style: italic;
 }
+
+.circle{
+  background-color: red; 
+  opacity: 0.7; 
+  height: 60px; 
+  width: 60px; 
+  border-radius: 50%; 
+  margin-right: 2.5rem; 
+  margin-top: 3rem; 
+  margin-bottom: 3rem; 
+}
+.blur-custom:hover{
+  filter: blur(1000px);
+}

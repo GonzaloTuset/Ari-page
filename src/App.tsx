@@ -2,9 +2,10 @@ import image from './assets/ari editada.jpg'
 import Cards from "./components/Cards"
 import header from './assets/Fondo.jpeg'
 import './index.css'
+
 function App() {
   return (
-    <main className='bg-white w-screen h-screen text-white flex justify-center items-center '>
+    <main className='bg-white w-screen h-screen text-white flex justify-center items-center md:bg-blue-800'>
       <img 
         src={header} 
         alt="Img" 
@@ -25,7 +26,7 @@ function App() {
         <div className='w-full h-auto md:h-[732px] flex flex-col  md:p-4'>
         <h1 className='h1 mt-1'>Ari Fernandez</h1>
         <p className='mt-[10px] p'>Mis redes Sociales:</p>
-          <div className=" flex flex-col  md:flex md:flex-row  md:items-center">
+          <div className=" flex flex-col    ">
             <div className='bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3'>
               <Cards 
                 title={"OnlyFans"} 
@@ -33,7 +34,7 @@ function App() {
                 url="https://onlyfans.com/arifeernandez"
               />
             </div>
-            <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3">
+            <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
               <Cards 
                 title={"TikTok"}
                 subtitle="Desireé" 
