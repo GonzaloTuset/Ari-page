@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .blur-custom {
   filter: blur(1px);
  
@@ -19,8 +20,8 @@ h1 {
   font-style: italic;
 }
 
-.circle{
-  background-color: red; 
+.circle {
+  background-color: rgb(167 243 208); 
   opacity: 0.7; 
   height: 60px; 
   width: 60px; 
@@ -29,6 +30,23 @@ h1 {
   margin-top: 3rem; 
   margin-bottom: 3rem; 
 }
-.blur-custom:hover{
-  filter: blur(1000px);
+
+
+@media (min-width: 768px) {
+  .md\:circle {
+    @apply circle;
+  }
 }
+
+.bg-common {
+  background-color: white;
+  /* Estilos adicionales comunes aquí */
+}
+
+/* Regla @media para aplicar el fondo de imagen solo en dispositivos md o mayores */
+@media (min-width: 768px) {
+  .bg-md {
+    background-image: url('assets/fondoAri.png');
+  }
+}
+
