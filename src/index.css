@@ -49,3 +49,18 @@ h1 {
   width: 300px;
   border-radius: 100px;
 }
+
+.text{
+  display: flex;
+
+}
+.text:hover{
+   width: 200px;
+   
+}
+
+@media (min-width: 768px) {
+  .md\:text {
+    @apply text;
+  }
+}

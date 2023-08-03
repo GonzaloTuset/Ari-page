@@ -37,7 +37,7 @@ function App() {
 </div>
 
 <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
-  <Cards 
+  <Cards  className='md:text'
     title={"OnlyFans"} 
     subtitle="Desireé" 
     url="https://onlyfans.com/arifeernandez"
