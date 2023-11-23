@@ -1,6 +1,6 @@
 import image from './assets/ari editada.jpg'
 import Cards from "./components/Cards"
-import header from './assets/Fondo.jpeg'
+import header from './assets/fondoNuevo.png'
 
 import './index.css'
 
