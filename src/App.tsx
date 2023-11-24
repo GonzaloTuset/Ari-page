@@ -1,6 +1,6 @@
 import image from './assets/ari editada.jpg'
 import Cards from "./components/Cards"
-import header from './assets/fondoNuevo.png'
+import header from './assets/testFondo3.png'
 
 import './index.css'
 
@@ -38,7 +38,7 @@ function App() {
 
 <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
   <Cards  
-    title={"OnlyFans"} 
+    title={"𝐎𝐧𝐥𝐲𝐅𝐚𝐧𝐬"} 
     subtitle="Desireé" 
     url="https://onlyfans.com/arifeernandez"
   />
@@ -46,7 +46,7 @@ function App() {
 
 <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
   <Cards 
-    title={"TikTok"}
+    title={"𝑻𝒊𝒌𝒕𝒐𝒌"}
     subtitle="Desireé" 
     url="https://www.tiktok.com/@arifernandez__1?_t=8cTe4T0GOeL&_r=1"
   />
@@ -54,7 +54,7 @@ function App() {
 
 <div className="bg-emerald-200 bg-opacity-70 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
   <Cards
-    title={"Instagram"}
+    title={"𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎"}
     subtitle="Desireé" 
     url="https://www.instagram.com/ari.feernandez/?hl=es-la"
   />
@@ -62,7 +62,7 @@ function App() {
 
 <div className="bg-emerald-200 bg-opacity-70 md:bg-opacity-0 h-[60px] w-[60px] rounded-full md:mr-2.5 mt-3 mb-3 md:circle">
   <Cards
-    title={"Contactame"}
+    title={"𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒎𝒆"}
     subtitle="Desireé" 
     url="mailto:AriadnaDesiree1@gmail.com"
   />
